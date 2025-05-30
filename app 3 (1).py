@@ -25,14 +25,14 @@ from langchain_community.chat_models import ChatOpenAI
 st.header("Il mio ChatBot")
 
 from PIL import Image
-logo = Image.open("Chatbot.webp")
+logo = Image.open("Leone alato Generali.html")
 st.image(logo, width=200)
 # st.image(logo, use_column_width=True)
 
 # with st.sidebar:
 #  st.title("Carica i tuoi documenti")
 #  file = st.file_uploader("Carica il tuo file", type="pdf")
-file = "Costituzione_della_Repubblica_italiana.pdf"
+file = ".pdf"
 
 from PyPDF2 import PdfReader
 
